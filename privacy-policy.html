@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy ✿ aquarusss</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --blush: #f5e6e8;
+      --petal: #e8d5d8;
+      --rose: #c9a0a8;
+      --dusty: #b08b94;
+      --cream: #faf7f5;
+      --text: #3d2c30;
+      --muted: #9e8188;
+      --white: #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--cream);
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.4;
+    }
+
+    header {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 52px 24px 36px;
+      border-bottom: 1px solid var(--petal);
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      margin-bottom: 24px;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--dusty); }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(1.8rem, 5vw, 2.8rem);
+      letter-spacing: 0.04em;
+      color: var(--text);
+    }
+    h1 em { font-style: italic; color: var(--dusty); }
+
+    .updated {
+      margin-top: 8px;
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      font-size: 1.2rem;
+      color: var(--text);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--petal);
+    }
+
+    p {
+      font-size: 0.87rem;
+      line-height: 1.85;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    a { color: var(--dusty); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { color: var(--text); }
+
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 0 24px 40px;
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.1em;
+      opacity: 0.55;
+    }
+    footer span { color: var(--rose); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a class="back-link" href="/">← back to home</a>
+    <h1><em>Privacy Policy</em></h1>
+    <p class="updated">last updated: june 2025</p>
+  </header>
+
+  <main>
+
+    <div class="section">
+      <h2 class="section-title">Overview ✿</h2>
+      <p>This website ("aquarusss & her pins") is a personal portfolio site that displays publicly available Pinterest content in a curated gallery format. We take your privacy seriously and this policy explains how the site operates with respect to your data.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Information We Collect</h2>
+      <p>This website does not collect, store, or process any personal information from visitors. There are no user accounts, login systems, forms, or data submission features on this site.</p>
+      <p>We do not use cookies, tracking pixels, or any form of analytics that identifies individual users.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Pinterest Content</h2>
+      <p>This site displays publicly available Pinterest pins and boards belonging to the site owner via the official Pinterest API. No private Pinterest data is accessed. No visitor's Pinterest data is accessed or stored at any point.</p>
+      <p>All Pinterest content displayed on this site remains the property of Pinterest and its respective content creators. This site simply reads and displays publicly accessible data from the Pinterest platform.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Third Party Services</h2>
+      <p>This site uses the Pinterest API to fetch and display pin content. By visiting this site, you may also be subject to Pinterest's own privacy policy, which can be found at <a href="https://policy.pinterest.com/en/privacy-policy" target="_blank" rel="noopener">policy.pinterest.com</a>.</p>
+      <p>This site is hosted on Vercel. Vercel may collect standard server logs including IP addresses for operational purposes. Please refer to <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">Vercel's privacy policy</a> for more information.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Children's Privacy</h2>
+      <p>This site is not directed at children under the age of 13 and does not knowingly collect any information from children.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Changes to This Policy</h2>
+      <p>This privacy policy may be updated occasionally. Any changes will be reflected on this page with an updated date at the top.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Contact</h2>
+      <p>If you have any questions about this privacy policy, you can reach out via Pinterest at <a href="https://in.pinterest.com/aquarusss/" target="_blank" rel="noopener">pinterest.com/aquarusss</a>.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    made with <span>✿</span> &nbsp;·&nbsp; aquarusss & her pins
+  </footer>
+
+</body>
+</html>
